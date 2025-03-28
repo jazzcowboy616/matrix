@@ -77,8 +77,6 @@ curl -sF 'file=@./inputs/matrix.csv' "localhost:8080/echo"
    ```
 
 You can also test the API using a tool like Postman or curl.
-I've attached postman collection json
-[**here**](https://github.com/jazzcowboy616/notesapi/blob/master/src/main/resources/Note%20api.postman_collection.json).
 
 ## APIs
 
