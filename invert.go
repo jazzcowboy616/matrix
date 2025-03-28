@@ -220,8 +220,8 @@ func invertMatrix(ctx context.Context, src io.Reader, resp *echo.Response) error
 
 	defer func() {
 		csvWriter.Flush()
-		//helper.Close()
-		//os.RemoveAll(tmpDir)
+		helper.Close()
+		os.RemoveAll(tmpDir)
 	}()
 
 	// read blocks and write into temp files
